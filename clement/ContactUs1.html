@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+    <!-- <link rel="stylesheet" href="css/index.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+   
+   body, html {
+  overflow-x: hidden;
+}
+
+    .navbar-large {
+    background-color: #49552A;
+    min-height: 70px;   
+}
+
+.navbar-collapse {
+  position: relative;
+  z-index: 1050;
+  background-color: #fff;
+}
+
+.contact-image {
+  position: relative;
+  z-index: 1;
+}
+
+
+      
+    .navbar-small{
+        height: 50px;
+        margin-bottom:120px;
+        
+    }
+/* 
+    .footer-page{
+        background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url(/assets/img/4.png);
+    } */
+
+    .list-unstyled li a{
+      list-style: none;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .contact-text {
+  margin-top: -180px; 
+  position: relative;
+  z-index: 10;
+}
+
+
+
+/* .agro1{
+margin-left: 25%;
+
+ 
+} */
+
+.letter{
+  position: relative;
+ top: 3vh;
+ left: 20%;
+}
+ul li img{
+
+height: 30px;
+
+}
+
+.list1 li a:hover{
+  color: red;
+  transition: 0.3s ease;
+}
+
+/* .quick{
+  position: relative;
+  background-color: red;
+padding: 2rem;
+width: 60vw;
+left: 24%;
+top: 20%;
+} */
+
+.agro2, .agro1 {
+  flex: 1 1 30%;
+  
+  margin-bottom: 10%;
+}
+.agro1:last-child {
+  margin-right: 0;
+}
+
+</style>
+<body>
+    <div class="main">
+        <nav class="navbar  navbar-expand-lg navbar-light bg-dar navbar-large">
+             <div class="container-fluid bg-light navbar-small">
+               <a class="navbar-brand text-danger fw-bold" href="#">Agro<span class="text-success">Chain</span></a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav mx-auto list1">
+                   <li class="nav-item"><a class="nav-link" href="#">Home <img src="/assets/img/Line 6.png" alt=""></a></li>
+                   <li class="nav-item"><a class="nav-link" href="AboutUs.html">About Us <img src="/assets/img/Line 6.png" alt=""></a></li>
+                   <li class="nav-item"><a class="nav-link" href="#">FAQs <img src="/assets/img/Line 6.png" alt=""></a></li>
+                   <li class="nav-item"><a class="nav-link" href="#">Contact Us <img src="/assets/img/Line 6.png" alt=""></a></li>
+                     <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                 </ul>
+                 <div class="d-flex">
+                   <button class="btn btn-success btn-outline-success text-light me-2">Log In</button>
+                   <button class="btn btn-outline-success">Sign up</button>
+                 </div>
+               </div>
+             </div>
+        </nav>
+           
+
+          <section class="container my-5 contact-us">
+               <h1 class="text-center fw-semibold display-5 mb-4 text-light contact-text">Contact Us</h1>
+               <div class="row">
+                   
+              <div class="col-12 d-flex justify-content-center contact-image">
+                 <img src="/assets/img/Contact.png" 
+                 class="img-fluid"
+                 style="width: 70vw; max-width: 100%; display: block;" 
+                 alt="Contact Image">
+              </div>
+                  
+                 <div class="col col-md-4 d-flex justify-content-between px-5 mt-5 w-100 mt-3">
+         <form class="ms-5">
+               <p>Have any questions or need assistance? <br>We're here to help.</p>
+               <div class="mb-3">
+                 <input type="text" class="form-control" placeholder="Name">
+               </div>
+               <div class="mb-3">
+                 <input type="email" class="form-control" placeholder="Email">
+               </div>
+               <div class="mb-3">
+                 <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+               </div>
+               <button class="btn btn-success w-100 rounded-3" type="submit">Submit</button>
+         </form>
+          <div class="mt-4 me-5">
+             <p class="fw-semibold">Get in touch</p>
+             <p><i class='bx bx-envelope'></i> Info@agrochain.com</p>
+             <p><i class='bx bx-phone'></i> +2349000111122</p>
+             <p><i class='bx bx-location-plus'></i> 222 Agro avenue, Port Harcourt, Nigeria</p>
+              </div>
+            </div>
+       </div>
+     </section>
+
+           <!--.............. FOOTER ..............-->
+
+    <footer class=" text-light  footer-page" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/img/4.png') no-repeat center center; background-size: cover;">
+  <div class="container">
+    
+     <!-- AgroChain brand/info -->
+    <div class="row mb-4">
+      <div class="col-12 col-md-3 mb-4 agro text-center text-md-start">
+        <h3>AgroChain</h3>
+        <p>Passionate about agriculture and making it easy to access the best from local farms.</p>
+        <div class="d-flex justify-content-center justify-content-md-start gap-3">
+          <a href="#"><img src="/assets/img/logos_facebook.png" alt="Facebook" width="30"></a>
+          <a href="#"><img src="/assets/img/Group 24.png" alt="X" width="30"></a>
+          <a href="#"><img src="/assets/img/logos_whatsapp-icon.png" alt="WhatsApp" width="30"></a>
+          <a href="#"><img src="/assets/img/skill-icons_instagram.png" alt="Instagram" width="30"></a>
+        </div>
+      </div>
+      
+    <!-- Newsletter subscription row -->
+    <div class="row mb-4">
+      <div class="col-12 col-md-6 mx-auto">
+        <h5 class="mb-3 text-center text-md-start">Subscribe to our newsletter</h5>
+        <form>
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Enter Email" required>
+            <button class="btn btn-success" type="submit">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+    <!-- Links and contact info stacked below newsletter -->
+    <div class="row text-center text-md-start">
+      
+      <div class="col-12 col-md-4 mb-4">
+        <h4>Quick Links</h4>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-light text-decoration-none">About Us</a></li>
+          <li><a href="#" class="text-light text-decoration-none">FAQs</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Contact Us</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Shop</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-12 col-md-4 mb-4">
+        <h4>Categories</h4>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">Tubers & Grains</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Fruits</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Protein</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Organic</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Animals & Poultry</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Vegetables</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Feeds</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-12 col-md-4 mb-4">
+        <h4>Contact info</h4>
+        <p><img src="/assets/img/Message.png" width="15" alt="Email Icon"> <a href="mailto:Info@agrochain.com" class="text-light text-decoration-none">Info@agrochain.com</a></p>
+        <p><img src="/assets/img/phone.png" width="25" alt="Phone Icon"> <a href="tel:+2349000001122" class="text-light text-decoration-none">+2349000001122</a></p>
+        <p><img src="/assets/img/address.png" width="25" alt="Address Icon"> 222 Agro avenue,<br> Port Harcourt, Nigeria</p>
+      </div>
+      
+    </div>
+    
+    <!-- Footer bottom -->
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center py-3 border-top text-center text-md-start">
+      <p class="mb-2 mb-md-0">© 2025 AgroChain. All Rights Reserved</p>
+      <div class="d-flex justify-content-center justify-content-md-start gap-3">
+        <a href="#"><img src="/assets/img/logos_mastercard.png" alt="MasterCard" width="50"></a>
+        <a href="#"><img src="/assets/img/Page-1.png" alt="Visa" width="50"></a>
+        <a href="#"><img src="/assets/img/Vector.png" alt="Verve" width="50"></a>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
