@@ -18,10 +18,11 @@ width: 2px;
 
 }
     .hero-section {
-      background-color: #6d8356;
+      background-color: #49552A;
       color: white;
       text-align: center;
-      padding: 60px 0;
+      padding: 35px 0;
+      height: 70vh;
     }
 
      .list1 li a:hover{
@@ -49,7 +50,7 @@ width: 2px;
       background-color: #324d26;
       color: white;
       padding: 40px 0;
-      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/assets/img/4.png);
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../ASSEST/img/4.png);
     }
     .footer a {
       color: white;
@@ -60,7 +61,7 @@ width: 2px;
     }
 
     .bg-container-image {
-  background-image: url('/assets/img/4.png');
+  background-image: url('../assets/img/4.png');
   background-size: cover;          
   background-position: center;   
   background-repeat: no-repeat;    
@@ -69,35 +70,48 @@ width: 2px;
   </style>
 </head>
 <body>
+  <header class="hero-section">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="#" style="color: green;">Agro<span style="color:red">Chain</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto px-5 list1">
-          <li class="nav-item"><a class="nav-link" href="#">Home <img src="/assets/img/Line 6.png" alt=""></a></li> 
-          <li class="nav-item"><a class="nav-link " href="AboutUs.html">About Us <img src="/assets/img/Line 6.png" alt=""></a></li>
-          <li class="nav-item"><a class="nav-link" href="#">FAQs <img src="/assets/img/Line 6.png" alt=""></a></li>
-          <li class="nav-item"><a class="nav-link active text-success" href="#">Contact Us <img src="/assets/img/Line 6.png" alt=""></a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Shop <img src="/assets/img/Line 6.png" alt=""></a></li>
-        </ul>
-        <button class="btn btn-outline-success ms-3">Log in</button>
-        <button class="btn btn-success ms-2">Sign up</button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <span class="fw-bold text-success">Agro</span><span class="text-danger">Chain</span>
+    </a>
+
+    <!-- Toggler button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav mx-auto gap-lg-4 text-center">
+        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+        <img src="../ASSEST/img/Line 6.png" alt="" style="height: 5vh;">
+        <li class="nav-item"><a class="nav-link " href="../clement/AboutUs.html">About Us</a></li>
+        <img src="../ASSEST/img/Line 6.png" alt="" style="height: 5vh;">
+        <li class="nav-item"><a class="nav-link" href="../clement/FAQs.html">FAQs</a></li>
+        <img src="../ASSEST/img/Line 6.png" alt="" style="height: 5vh;">
+        <li class="nav-item"><a class="nav-link active text-success" href="../clement/ContactUs.html">Contact Us</a></li>
+        <img src="../ASSEST/img/Line 6.png" alt="" style="height: 5vh;">
+        <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+      </ul>
+      <!-- Buttons below nav on mobile -->
+      <div class="d-lg-flex justify-content-end align-items-center ms-lg-3 mt-3 mt-lg-0">
+        <button class="btn btn-outline-success me-2">Log in</button>
+        <button class="btn btn-success">Sign up</button>
       </div>
     </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <div class="hero-section">
-    <h1 class="display-4">Contact Us</h1>
   </div>
+</nav>
+  
+    <h1 class="display-4" style="margin-top: 50px;">Contact Us</h1>
+  </header>
 
   <!-- Main Image -->
   <div class="container  my-5 text-center">
-    <img src="./assets/img/Contact.png" alt="Farmer" class="img-fluid rounded" style="position: relative; top: -90px;">
+    <img src="../ASSEST/img/Contact.png" alt="Farmer" class="img-fluid rounded" style="position: relative; top: -150px;">
   </div>
 
   <!-- Mission and Vision -->
